@@ -15,7 +15,7 @@ alert('Ви дитина');
 
 /* Друге */
 
-let USER_NUMBER = Number(prompt('Введіть будь яке число від 0 до 9:'));
+/*const USER_NUMBER = Number(prompt('Введіть будь яке число від 0 до 9:'));
 switch (USER_NUMBER) {
   case 0:
     alert (')');
@@ -49,4 +49,9 @@ switch (USER_NUMBER) {
     break;
     default:
     alert('Ви ввели невірне число!');
-}
+}*/
+
+/* Третє */
+
+
+
