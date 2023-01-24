@@ -53,5 +53,8 @@ switch (USER_NUMBER) {
 
 /* Третє */
 
+let userNumber = prompt('Введіть будь яке тризначне число:');
+let splits = userNumber.split('');
+console.log(splits)
 
 
