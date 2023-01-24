@@ -76,18 +76,20 @@ if (arr.length == 3) {
 //   alert('Даний рік НЕВИСОКОСНИЙ!')
 // }
 
+/* П’яте */
+
 const numberUsers = prompt('Введіть будь яке п’ятирозрядне число')
 let arrNumberUser = numberUsers.split('');
-for (let i = 0; i < arrNumberUser.length; i++){
-  k = (arrNumberUser.length - 1) - i; 
-  r =  arrNumberUser[k] -  arrNumberUser[i];
-  if(  r != 0){
+for (let i = 0; i < arrNumberUser.length; i++) {
+  k = (arrNumberUser.length - 1) - i;
+  r = arrNumberUser[k] - arrNumberUser[i];
+  if (r != 0) {
     break;
-  } 
+  }
 }
-if(r == 0){
-  alert('Введене вами число паліндром!')
-}else{
-  alert('Введене вами число не паліндром!')
+if (r == 0) {
+  alert('Введене вами число - паліндром!')
+} else {
+  alert('Введене вами число - не паліндром!')
 }
 
