@@ -53,9 +53,20 @@ switch (USER_NUMBER) {
 
 /* Третє */
 
-let userNumber = prompt('Введіть будь яке тризначне число:');
-let splits = userNumber.split('');
-console.log(splits);
+/*let userNumber = prompt('Введіть будь яке тризначне число:');
+let arr = userNumber.split('');
+console.log(arr);
+if (arr.length == 3) {
+  let uniq = Array.from(new Set(arr));
+
+  if (arr.length > uniq.length) {
+    alert("Є однакові цифри")
+  } else {
+    alert("Немає одинакових цифр")
+  }
+} else {
+  alert('Ви ввели невірне число!')
+}*/
 
 
 
