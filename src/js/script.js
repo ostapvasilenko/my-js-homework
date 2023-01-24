@@ -69,11 +69,25 @@ if (arr.length == 3) {
 
 /* Четверте */
 
-const USER_YEAR = prompt('Введіть будь який рік')
-if (USER_YEAR ){
+// const USER_YEAR = Number(prompt('Введіть будь який рік'))
+// if (USER_YEAR % 4 == 0 ){
+//  alert('Даний рік ВИСОКОСНИЙ!')
+// } else{
+//   alert('Даний рік НЕВИСОКОСНИЙ!')
+// }
 
+const numberUsers = prompt('Введіть будь яке п’ятирозрядне число')
+let arrNumberUser = numberUsers.split('');
+for (let i = 0; i < arrNumberUser.length; i++){
+  k = (arrNumberUser.length - 1) - i; 
+  r =  arrNumberUser[k] -  arrNumberUser[i];
+  if(  r != 0){
+    break;
+  } 
 }
-
-
-
+if(r == 0){
+  alert('Введене вами число паліндром!')
+}else{
+  alert('Введене вами число не паліндром!')
+}
 
