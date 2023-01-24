@@ -58,7 +58,6 @@ let arr = userNumber.split('');
 console.log(arr);
 if (arr.length == 3) {
   let uniq = Array.from(new Set(arr));
-
   if (arr.length > uniq.length) {
     alert("Є однакові цифри")
   } else {
@@ -67,6 +66,13 @@ if (arr.length == 3) {
 } else {
   alert('Ви ввели невірне число!')
 }*/
+
+/* Четверте */
+
+const USER_YEAR = prompt('Введіть будь який рік')
+if (USER_YEAR ){
+
+}
 
 
 
