@@ -69,16 +69,19 @@ if (arr.length == 3) {
 
 /* Четверте */
 
-// const USER_YEAR = Number(prompt('Введіть будь який рік'))
-// if (USER_YEAR % 4 == 0 ){
-//  alert('Даний рік ВИСОКОСНИЙ!')
-// } else{
-//   alert('Даний рік НЕВИСОКОСНИЙ!')
-// }
+/*const USER_YEAR = Number(prompt('Введіть будь який рік'))
+if (USER_YEAR <= 1900 || USER_YEAR >= 2100 ) {
+  alert('Ви неправильно ввели рік!!!')
+}
+else if (USER_YEAR % 4 == 0) {
+  alert('Даний рік ВИСОКОСНИЙ!')
+} else {
+  alert('Даний рік НЕВИСОКОСНИЙ!')
+}*/
 
 /* П’яте */
 
-const numberUsers = prompt('Введіть будь яке п’ятирозрядне число')
+/*const numberUsers = prompt('Введіть будь яке п’ятирозрядне число')
 let arrNumberUser = numberUsers.split('');
 for (let i = 0; i < arrNumberUser.length; i++) {
   k = (arrNumberUser.length - 1) - i;
@@ -87,9 +90,14 @@ for (let i = 0; i < arrNumberUser.length; i++) {
     break;
   }
 }
-if (r == 0) {
+if (numberUsers < 0 || numberUsers.length != 5) {
+  alert('Ви ввели невірне число!')
+}
+else if (r == 0) {
   alert('Введене вами число - паліндром!')
 } else {
   alert('Введене вами число - не паліндром!')
-}
+}*/
+
+
 
