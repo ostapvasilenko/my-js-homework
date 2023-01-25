@@ -100,4 +100,28 @@ else if (r == 0) {
 }*/
 
 
+/* Шосте */
 
+const USER_MONEY = prompt('Введіть суму доларів (USD) яку хочете поміняти')
+let USER_COURSE = prompt('Виберіть валюту (ЦИФРУ) в яку хочете поміняти: 1-EUR; 2-UAN; 3-AZN')
+if (USER_COURSE == 1){
+  console.log(`Ваша сума грошей дорівнює: ${USER_MONEY * 1.07} EUR`);
+} else if (USER_COURSE == 2){
+  console.log(`Ваша сума грошей дорівнює: ${USER_MONEY * 40.4} UAN`);
+} else(USER_COURSE == 3){
+  alert(`Ваша сума грошей дорівнює: ${USER_MONEY * 1.72} AZN`);
+}
+
+
+
+// switch(USER_MONEY){
+// case (USER_COURSE = 1):
+//   console.log(`Ваша сума грошей дорівнює: ${USER_MONEY * 1.07} EUR`);
+//   break;
+//   case 2:
+//   alert(`Ваша сума грошей дорівнює: ${USER_MONEY * 40.4} UAN`);
+//   break;
+//   case 3:
+//   alert(`Ваша сума грошей дорівнює: ${USER_MONEY * 1.72} AZN`);
+//   break;
+// }
