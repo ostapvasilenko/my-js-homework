@@ -116,6 +116,20 @@ else if (userCourses == 1) {
 
 /* Сьоме */
 
+/*let userSum = Number(prompt('Введіть суму покупки'));
+if (userSum < 200) {
+  alert('Ви ввели невірну суму!!!')
+}
+else if (userSum >= 200 && userSum <= 300) {
+  let userSumFirst = userSum - (userSum * 0.03)
+  alert(`Ваша сума зі знижкою 3% = ${userSumFirst} грн`);
+} else if (userSum > 300 && userSum <= 500) {
+  let userSumNext = userSum - (userSum * 0.05)
+  alert(`Ваша сума зі знижкою 5% = ${userSumNext} грн`);
+} else if (userSum > 500) {
+  let userSumLast = userSum - (userSum * 0.07)
+  alert(`Ваша сума зі знижкою 7% = ${userSumLast} грн`);
+}*/
 
 
 
