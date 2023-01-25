@@ -99,29 +99,25 @@ else if (r == 0) {
   alert('Введене вами число - не паліндром!')
 }*/
 
-
 /* Шосте */
 
-const USER_MONEY = Number (prompt('Введіть суму доларів (USD) яку хочете поміняти'))
-let userCourses =  Number (prompt('Виберіть валюту (ЦИФРУ) в яку хочете поміняти: 1-EUR; 2-UAN; 3-AZN'))
-if (userCourses == 1){
-  alert(`Ваша сума грошей дорівнює: ${USER_MONEY * 1.07} EUR`);
-} else if (userCourses == 2){
-  alert(`Ваша сума грошей дорівнює: ${USER_MONEY * 40.4} UAN`);
-} else if(userCourses == 3){
-  alert(`Ваша сума грошей дорівнює: ${USER_MONEY * 1.72} AZN`);
+/*const USER_MONEY = Number(prompt('Введіть суму доларів (USD) яку хочете поміняти'))
+let userCourses = Number(prompt('Виберіть валюту (ЦИФРУ) в яку хочете поміняти: 1-EUR; 2-UAN; 3-AZN'))
+if (USER_MONEY < 0) {
+  alert('Ви ввели невірну суму!')
 }
+else if (userCourses == 1) {
+  alert(`Ваша сума грошей дорівнює: ${(USER_MONEY * 1.07).toFixed(2)} EUR`);
+} else if (userCourses == 2) {
+  alert(`Ваша сума грошей дорівнює: ${(USER_MONEY * 40.4).toFixed(2)} UAN`);
+} else if (userCourses == 3) {
+  alert(`Ваша сума грошей дорівнює: ${(USER_MONEY * 1.72).toFixed(2)} AZN`);
+}*/
+
+/* Сьоме */
 
 
 
-// switch (USER_COURSE) {
-//   case USER_COURSE = 1:
-//     console.log(`Ваша сума грошей дорівнює: ${USER_MONEY * 1.07} EUR`);
-//     break;
-//   case USER_COURSE = 2:
-//     console.log(`Ваша сума грошей дорівнює: ${USER_MONEY * 40.4} UAN`);
-//     break;
-//   case USER_COURSE = 3:
-//     console.log(`Ваша сума грошей дорівнює: ${USER_MONEY * 1.72} AZN`);
-//     break;
-// }
+
+
+
