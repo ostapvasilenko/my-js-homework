@@ -131,7 +131,10 @@ else if (userSum >= 200 && userSum <= 300) {
   alert(`Ваша сума зі знижкою 7% = ${userSumLast} грн`);
 }*/
 
+/* Восьме */
 
+// let circuit = 
+// let perimeterSquare
 
 
 
