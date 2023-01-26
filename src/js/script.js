@@ -148,7 +148,7 @@ if (DIAMCIRCUL < 0 || SIDESQUARE < 0){
 
 /* Дев’яте */
 
-let counter = 0;
+/*let counter = 0;
 let userQuestionFirst = prompt('Коли день Незалежності України? \n1 - 24 серпня \n2 - 28 червня \n3 - 1 січня');
 if (userQuestionFirst == 1) {
   alert('Ваша відповідь правильна!')
@@ -170,7 +170,7 @@ if (userQuestionThree == 3) {
 } else {
   alert('Ви ввели не правильну відповідь!')
 }
-alert(`Ваша кількість набраних балів: ${counter * 2}`)
+alert(`Ваша кількість набраних балів: ${counter * 2}`)*/
 
 
 
