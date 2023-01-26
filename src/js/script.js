@@ -150,27 +150,27 @@ if (DIAMCIRCUL < 0 || SIDESQUARE < 0){
 
 let counter = 0;
 let userQuestionFirst = prompt('Коли день Незалежності України? \n1 - 24 серпня \n2 - 28 червня \n3 - 1 січня');
-if (userQuestionFirst == 1){
+if (userQuestionFirst == 1) {
   alert('Ваша відповідь правильна!')
   counter++;
-} else{
+} else {
   alert('Ви ввели не правильну відповідь!')
 }
 let userQuestionSecond = prompt('Коли день Конституції України? \n1 - 24 серпня \n2 - 28 червня \n3 - 1 січня');
-if (userQuestionSecond == 2){
+if (userQuestionSecond == 2) {
   alert('Ваша відповідь правильна!')
   counter++;
-} else{
+} else {
   alert('Ви ввели не правильну відповідь!')
 }
 let userQuestionThree = prompt('Коли Новий Рік в Україні? \n1 - 24 серпня \n2 - 28 червня \n3 - 1 січня');
-if (userQuestionThree == 3){
+if (userQuestionThree == 3) {
   alert('Ваша відповідь правильна!')
   counter++;
-} else{
+} else {
   alert('Ви ввели не правильну відповідь!')
 }
-alert(`Ваша кількість набраних балів: ${counter*2}`)
+alert(`Ваша кількість набраних балів: ${counter * 2}`)
 
 
 
