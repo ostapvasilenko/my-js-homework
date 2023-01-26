@@ -146,5 +146,34 @@ if (DIAMCIRCUL < 0 || SIDESQUARE < 0){
   alert('Дане коло не поміститься в квадрат!')
 }*/
 
+/* Дев’яте */
+
+let counter = 0;
+let userQuestionFirst = prompt('Коли день Незалежності України? \n1 - 24 серпня \n2 - 28 червня \n3 - 1 січня');
+if (userQuestionFirst == 1){
+  alert('Ваша відповідь правильна!')
+  counter++;
+} else{
+  alert('Ви ввели не правильну відповідь!')
+}
+let userQuestionSecond = prompt('Коли день Конституції України? \n1 - 24 серпня \n2 - 28 червня \n3 - 1 січня');
+if (userQuestionSecond == 2){
+  alert('Ваша відповідь правильна!')
+  counter++;
+} else{
+  alert('Ви ввели не правильну відповідь!')
+}
+let userQuestionThree = prompt('Коли Новий Рік в Україні? \n1 - 24 серпня \n2 - 28 червня \n3 - 1 січня');
+if (userQuestionThree == 3){
+  alert('Ваша відповідь правильна!')
+  counter++;
+} else{
+  alert('Ви ввели не правильну відповідь!')
+}
+alert(`Ви набрали правильних балів: ${counter*2}`)
+
+
+
+
 
 
