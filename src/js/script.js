@@ -133,8 +133,18 @@ else if (userSum >= 200 && userSum <= 300) {
 
 /* Восьме */
 
-// let circuit = 
-// let perimeterSquare
+/*let circuit = Number(prompt('Введіть довжину кола'));
+let perimeterSquare = Number(prompt('Введіть периметр квадрата'));
+let DIAMCIRCUL = circuit / 3.14;
+let SIDESQUARE = perimeterSquare / 4;
+if (DIAMCIRCUL < 0 || SIDESQUARE < 0){
+  alert('Ви ввели невірне число!')
+}
+ else if (DIAMCIRCUL < SIDESQUARE){
+  alert('Дане коло поміститься в квадрат!')
+} else if (DIAMCIRCUL > SIDESQUARE){
+  alert('Дане коло не поміститься в квадрат!')
+}*/
 
 
 
