@@ -173,24 +173,31 @@ if (userQuestionThree == 3) {
 alert(`Ваша кількість набраних балів: ${counter * 2}`)*/
 
 
-var date365 = 0;
+// let date365 = 0;
 
-var currentDate = new Date();
-var currentYear = currentDate.getFullYear();
-var currentMonth = currentDate.getMonth(); 
-var currentDay = currentDate.getDate(); 
+// let currentDate = new Date();
+// let currentYear = currentDate.getFullYear();
+// let currentMonth = currentDate.getMonth(); 
+// let currentDay = currentDate.getDate(); 
 
-var monthLength = [31,28,31,30,31,30,31,31,30,31,30,31];
+// let monthLength = [31,28,31,30,31,30,31,31,30,31,30,31];
 
-var leapYear = new Date(currentYear, 1, 29); 
-if (leapYear.getDate() == 29) { // If it's a leap year, changes 28 to 29
-    monthLength[1] = 29;
-}
+// let leapYear = new Date(currentYear, 1, 29); 
+// if (leapYear.getDate() == 29) { // If it's a leap year, changes 28 to 29
+//     monthLength[1] = 29;
+// }
 
-for ( i=0; i < currentMonth; i++ ) { 
-    date365 = date365 + monthLength[i];
-}
-date365 = date365 + currentDay; // Done!
+// for ( i=0; i < currentMonth; i++ ) { 
+//     date365 = date365 + monthLength[i];
+// }
+// date365 = date365 + currentDay; // Done!
+
+/* Десяте */
+
+let userDay = Number(prompt('Введіть будь який день року'));
+let userMonth = Number(prompt('Введіть будь який місяць року (номером від 1 до 12)'));
+let userYear = Number(prompt('Введіть будь який рік'));
+let monthLength = [31,28,31,30,31,30,31,31,30,31,30,31];
 
 
 
