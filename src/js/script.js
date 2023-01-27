@@ -190,10 +190,16 @@ alert(`Ваша кількість набраних балів: ${counter * 2}`)
 //   alert('Ви ввели невірний місяць')
 // }
 
-let userDates = new Date (prompt('date'));
-console.log(userDates.getMonth()+1)
-console.log(userDates.getDate())
-console.log(userDates.getFullYear())
+// let userDates = new Date (prompt('date'));
+// console.log(userDates.getMonth()+1)
+// console.log(userDates.getDate())
+// console.log(userDates.getFullYear())
+
+let userDay = new Date(prompt('Day'));
+let userMonth = new Date(prompt('Month'));
+let userYear = new Date(prompt('Year'));
+
+console.log (`${userDay.getDate()}.${userMonth.getMonth()}.${userYear.getFullYear()}`)
 
 
 
