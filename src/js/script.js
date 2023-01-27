@@ -195,11 +195,16 @@ alert(`Ваша кількість набраних балів: ${counter * 2}`)
 // console.log(userDates.getDate())
 // console.log(userDates.getFullYear())
 
-let userDay = new Date(prompt('Day'));
-let userMonth = new Date(prompt('Month'));
-let userYear = new Date(prompt('Year'));
+// let userDay = new Date(prompt('Day'));
+// let userMonth = new Date(prompt('Month'));
+// let userYear = new Date(prompt('Year'));
 
-console.log (`${userDay.getDate()}.${userMonth.getMonth()}.${userYear.getFullYear()}`)
+// console.log (`${userDay.getDate()}.${userMonth.getMonth()}.${userYear.getFullYear()}`)
+
+let userDay = new Date (prompt('Day'));
+let userMonth = new Date (prompt('mONTH'));
+let userYear = new Date (prompt('Year'));
+alert(userYear.getFullYear() + '-' + (userMonth.getMonth() + 1)  + '-' + userDay);
 
 
 
