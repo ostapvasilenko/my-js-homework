@@ -1,6 +1,6 @@
 /* Перше */
 
-/*const USER_AGE = Number(prompt('Введіть ваш вік:'));
+const USER_AGE = Number(prompt('Введіть ваш вік:'));
 if (USER_AGE > 0 && USER_AGE < 12){
 alert('Ви дитина');
 } else if (USER_AGE >= 12 && USER_AGE < 18){
@@ -11,11 +11,11 @@ alert('Ви дитина');
   alert('Ви пенсіонер');
 } else if (USER_AGE > 120){
   alert('Ви ввели невірний вік');
-}*/
+}
 
 /* Друге */
 
-/*const USER_NUMBER = Number(prompt('Введіть будь яке число від 0 до 9:'));
+const USER_NUMBER = Number(prompt('Введіть будь яке число від 0 до 9:'));
 switch (USER_NUMBER) {
   case 0:
     alert (')');
@@ -49,11 +49,11 @@ switch (USER_NUMBER) {
     break;
     default:
     alert('Ви ввели невірне число!');
-}*/
+}
 
 /* Третє */
 
-/*let userNumber = prompt('Введіть будь яке тризначне число:');
+let userNumber = prompt('Введіть будь яке тризначне число:');
 let arr = userNumber.split('');
 console.log(arr);
 if (arr.length == 3) {
@@ -65,11 +65,11 @@ if (arr.length == 3) {
   }
 } else {
   alert('Ви ввели невірне число!')
-}*/
+}
 
 /* Четверте */
 
-/*const USER_YEAR = Number(prompt('Введіть будь який рік'))
+const USER_YEAR = Number(prompt('Введіть будь який рік'))
 if (USER_YEAR <= 1900 || USER_YEAR >= 2100 ) {
   alert('Ви неправильно ввели рік!!!')
 }
@@ -77,11 +77,11 @@ else if (USER_YEAR % 4 == 0) {
   alert('Даний рік ВИСОКОСНИЙ!')
 } else {
   alert('Даний рік НЕВИСОКОСНИЙ!')
-}*/
+}
 
 /* П’яте */
 
-/*const numberUsers = prompt('Введіть будь яке п’ятирозрядне число')
+const numberUsers = prompt('Введіть будь яке п’ятирозрядне число')
 let arrNumberUser = numberUsers.split('');
 for (let i = 0; i < arrNumberUser.length; i++) {
   k = (arrNumberUser.length - 1) - i;
@@ -97,11 +97,11 @@ else if (r == 0) {
   alert('Введене вами число - паліндром!')
 } else {
   alert('Введене вами число - не паліндром!')
-}*/
+}
 
 /* Шосте */
 
-/*const USER_MONEY = Number(prompt('Введіть суму доларів (USD) яку хочете поміняти'))
+const USER_MONEY = Number(prompt('Введіть суму доларів (USD) яку хочете поміняти'))
 let userCourses = Number(prompt('Виберіть валюту (ЦИФРУ) в яку хочете поміняти: 1-EUR; 2-UAN; 3-AZN'))
 if (USER_MONEY < 0) {
   alert('Ви ввели невірну суму!')
@@ -174,25 +174,9 @@ alert(`Ваша кількість набраних балів: ${counter * 2}`)
 
 /* Десяте */
 
-// let userDay = Number (prompt('Day'));
-// let userMonth = Number (prompt('mONTH'));
-// let userYear = Number (prompt('Year'));
-// if (userDay < 0 || userDay > 32){
-//    alert('Ви ввели направильне число!!!');
-// } else if(userDay == 31){
-//   userDay == 1 && userMonth++
-// } else if(userDay > 0 || userDay < 32){
-//   userDay++
-// }
-// if (userMonth < 0 || userMonth > 12){
-//   alert('Ви ввели направильний місяць!!!');
-// }
-// if (userYear < 1970 || userMonth > 2200){
-//   alert('Ви ввели направильний рік!!!');
-// }
-
-// alert(userDay + '-' + userMonth + '-' + userYear);
-
-
+let date = prompt('Введіть будь яку дату, наприклад (2000-12-27)')
+let  today = new Date(date);
+let tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
+alert(tomorrow.getDate() + "." + (tomorrow.getMonth()+1) + "." + tomorrow.getFullYear() )
 
 
