@@ -174,38 +174,24 @@ alert(`Ваша кількість набраних балів: ${counter * 2}`)
 
 /* Десяте */
 
-// const NEW_USER_DAY = 0;
-// const NEW_USER_MONTH = 0;
-// const NEW_USER_YEAR = 0;
-// let userDay = Number(prompt('Введіть будь який день року'));
-// let userMonth = Number(prompt('Введіть будь який місяць року (номером від 1 до 12)'));
-// let userYear = Number(prompt('Введіть будь який рік'));
-// let monthLength = [31,28,31,30,31,30,31,31,30,31,30,31];
-// if (userMonth > 0 && userMonth < 32){
-//   alert('Ви ввели невірний день')
-// } else {
-//   NEW_USER_DAY++
+// let userDay = Number (prompt('Day'));
+// let userMonth = Number (prompt('mONTH'));
+// let userYear = Number (prompt('Year'));
+// if (userDay < 0 || userDay > 32){
+//    alert('Ви ввели направильне число!!!');
+// } else if(userDay == 31){
+//   userDay == 1 && userMonth++
+// } else if(userDay > 0 || userDay < 32){
+//   userDay++
 // }
-// if (userMonth > 0 && userMonth <=31){
-//   alert('Ви ввели невірний місяць')
+// if (userMonth < 0 || userMonth > 12){
+//   alert('Ви ввели направильний місяць!!!');
+// }
+// if (userYear < 1970 || userMonth > 2200){
+//   alert('Ви ввели направильний рік!!!');
 // }
 
-// let userDates = new Date (prompt('date'));
-// console.log(userDates.getMonth()+1)
-// console.log(userDates.getDate())
-// console.log(userDates.getFullYear())
-
-// let userDay = new Date(prompt('Day'));
-// let userMonth = new Date(prompt('Month'));
-// let userYear = new Date(prompt('Year'));
-
-// console.log (`${userDay.getDate()}.${userMonth.getMonth()}.${userYear.getFullYear()}`)
-
-let userDay = new Date (prompt('Day'));
-let userMonth = new Date (prompt('mONTH'));
-let userYear = new Date (prompt('Year'));
-alert(userYear.getFullYear() + '-' + (userMonth.getMonth() + 1)  + '-' + userDay);
-
+// alert(userDay + '-' + userMonth + '-' + userYear);
 
 
 
