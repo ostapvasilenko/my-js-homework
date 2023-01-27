@@ -1,15 +1,15 @@
 /* Перше */
 
 const USER_AGE = Number(prompt('Введіть ваш вік:'));
-if (USER_AGE > 0 && USER_AGE < 12){
-alert('Ви дитина');
-} else if (USER_AGE >= 12 && USER_AGE < 18){
+if (USER_AGE > 0 && USER_AGE < 12) {
+  alert('Ви дитина');
+} else if (USER_AGE >= 12 && USER_AGE < 18) {
   alert('Ви підліток');
-} else if (USER_AGE >= 18 && USER_AGE <= 60){
+} else if (USER_AGE >= 18 && USER_AGE <= 60) {
   alert('Ви дорослий');
-} else if (USER_AGE > 60 && USER_AGE <= 120){
+} else if (USER_AGE > 60 && USER_AGE <= 120) {
   alert('Ви пенсіонер');
-} else if (USER_AGE > 120){
+} else if (USER_AGE > 120) {
   alert('Ви ввели невірний вік');
 }
 
@@ -18,36 +18,36 @@ alert('Ви дитина');
 const USER_NUMBER = Number(prompt('Введіть будь яке число від 0 до 9:'));
 switch (USER_NUMBER) {
   case 0:
-    alert (')');
+    alert(')');
     break;
-    case 1:
-    alert ('!');
+  case 1:
+    alert('!');
     break;
-    case 2:
-    alert ('@');
+  case 2:
+    alert('@');
     break;
-    case 3:
-    alert ('#');
+  case 3:
+    alert('#');
     break;
-    case 4:
-    alert ('$');
+  case 4:
+    alert('$');
     break;
-    case 5:
-    alert ('%');
+  case 5:
+    alert('%');
     break;
-    case 6:
-    alert ('^');
+  case 6:
+    alert('^');
     break;
-    case 7:
-    alert ('&');
+  case 7:
+    alert('&');
     break;
-    case 8:
-    alert ('*');
+  case 8:
+    alert('*');
     break;
-    case 9:
-    alert ('(');
+  case 9:
+    alert('(');
     break;
-    default:
+  default:
     alert('Ви ввели невірне число!');
 }
 
@@ -70,7 +70,7 @@ if (arr.length == 3) {
 /* Четверте */
 
 const USER_YEAR = Number(prompt('Введіть будь який рік'))
-if (USER_YEAR <= 1900 || USER_YEAR >= 2100 ) {
+if (USER_YEAR <= 1900 || USER_YEAR >= 2100) {
   alert('Ви неправильно ввели рік!!!')
 }
 else if (USER_YEAR % 4 == 0) {
@@ -112,11 +112,11 @@ else if (userCourses == 1) {
   alert(`Ваша сума грошей дорівнює: ${(USER_MONEY * 40.4).toFixed(2)} UAN`);
 } else if (userCourses == 3) {
   alert(`Ваша сума грошей дорівнює: ${(USER_MONEY * 1.72).toFixed(2)} AZN`);
-}*/
+}
 
 /* Сьоме */
 
-/*let userSum = Number(prompt('Введіть суму покупки'));
+let userSum = Number(prompt('Введіть суму покупки'));
 if (userSum < 200) {
   alert('Ви ввели невірну суму!!!')
 }
@@ -129,26 +129,26 @@ else if (userSum >= 200 && userSum <= 300) {
 } else if (userSum > 500) {
   let userSumLast = userSum - (userSum * 0.07)
   alert(`Ваша сума зі знижкою 7% = ${userSumLast} грн`);
-}*/
+}
 
 /* Восьме */
 
-/*let circuit = Number(prompt('Введіть довжину кола'));
+let circuit = Number(prompt('Введіть довжину кола'));
 let perimeterSquare = Number(prompt('Введіть периметр квадрата'));
 let DIAMCIRCUL = circuit / 3.14;
 let SIDESQUARE = perimeterSquare / 4;
-if (DIAMCIRCUL < 0 || SIDESQUARE < 0){
+if (DIAMCIRCUL < 0 || SIDESQUARE < 0) {
   alert('Ви ввели невірне число!')
 }
- else if (DIAMCIRCUL < SIDESQUARE){
+else if (DIAMCIRCUL < SIDESQUARE) {
   alert('Дане коло поміститься в квадрат!')
-} else if (DIAMCIRCUL > SIDESQUARE){
+} else if (DIAMCIRCUL > SIDESQUARE) {
   alert('Дане коло не поміститься в квадрат!')
-}*/
+}
 
 /* Дев’яте */
 
-/*let counter = 0;
+let counter = 0;
 let userQuestionFirst = prompt('Коли день Незалежності України? \n1 - 24 серпня \n2 - 28 червня \n3 - 1 січня');
 if (userQuestionFirst == 1) {
   alert('Ваша відповідь правильна!')
@@ -170,13 +170,13 @@ if (userQuestionThree == 3) {
 } else {
   alert('Ви ввели не правильну відповідь!')
 }
-alert(`Ваша кількість набраних балів: ${counter * 2}`)*/
+alert(`Ваша кількість набраних балів: ${counter * 2}`)
 
 /* Десяте */
 
 let date = prompt('Введіть будь яку дату, наприклад (2000-12-27)')
-let  today = new Date(date);
+let today = new Date(date);
 let tomorrow = new Date(today.getTime() + (24 * 60 * 60 * 1000));
-alert(tomorrow.getDate() + "." + (tomorrow.getMonth()+1) + "." + tomorrow.getFullYear() )
+alert(tomorrow.getDate() + "." + (tomorrow.getMonth() + 1) + "." + tomorrow.getFullYear())
 
 
